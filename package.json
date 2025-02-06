@@ -23,7 +23,9 @@
       "node_modules/sweetalert2/**/*",
       "node_modules/@cocktailpeanut/**/*"
     ],
-    "nsis": { "include": "build/installer.nsh" },
+    "nsis": {
+      "include": "build/installer.nsh"
+    },
     "extraResources": [
       "./script/**"
     ],
@@ -103,11 +105,13 @@
   "dependencies": {
     "electron-store": "^8.1.0",
     "electron-window-state": "^5.0.3",
+    "execa": "^9.5.2",
     "pinokiod": "^3.2.0"
   },
   "devDependencies": {
     "@electron/rebuild": "3.2.10",
-    "electron": "^23.1.2",
+    "cross-env": "^7.0.3",
+    "electron": "^34.1.0",
     "electron-builder": "^24.0.0"
   }
 }
